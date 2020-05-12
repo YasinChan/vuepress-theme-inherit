@@ -1,12 +1,14 @@
 {
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+  "name": "vuepress-theme-inherit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasinChan/vuepress-theme-inherit.git"
   },
   "devDependencies": {
     "vuepress": "^1.5.0"
   },
   "dependencies": {
     "dayjs": "^1.8.26"
-  }
+  },
+  "version": "1.0.0"
 }

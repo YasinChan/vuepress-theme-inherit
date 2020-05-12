@@ -2,6 +2,9 @@
 
 > Vuepress 继承于`@vuepress/theme-default`的博客主题，支持归档和标签功能。
 
+## NPM
+<https://www.npmjs.com/package/vuepress-theme-inherit>
+
 ## DEMO
 <https://yasinchan.com>
 

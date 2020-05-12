@@ -54,3 +54,4 @@ yarn add vuepress-theme-inherit
     3. `tags` 用来做标签筛选
     4. 博客首页会自动根据 `/post` 目录下创建的 markdown 博客，生成对应的博客列表
     5. 以上都会自动配置，无需做额外操作
+    6. `/archives` `/tags` `/post` 三个文件夹下的 `README.md` 可以在其中通过 [Front Matter](https://vuepress.vuejs.org/zh/guide/frontmatter.html) 来设置相关页面信息

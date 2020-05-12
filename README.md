@@ -1,6 +1,6 @@
 # vuepress-theme-inherit
 
-> 继承于`@vuepress/theme-default`的`vuepress`博客主题，支持归档和标签功能，可自动将博客按时间排序。
+> 继承于`@vuepress/theme-default`的`vuepress`博客主题，支持归档和标签功能，可自动将博客按时间进行排序。
 
 ## NPM
 <https://www.npmjs.com/package/vuepress-theme-inherit>
@@ -9,7 +9,7 @@
 <https://yasinchan.com>
 
 ## 安装
-> 注：以下操作均来自在官方文档，可事先熟悉[文档](https://vuepress.vuejs.org/zh/)  
+> 注：以下操作均可在官方文档中找到具体步骤与原委，请事先熟悉[文档](https://vuepress.vuejs.org/zh/)  
 
 在安装和配置 [vuepress](https://vuepress.vuejs.org/zh/guide/getting-started.html#%E7%8E%B0%E6%9C%89%E9%A1%B9%E7%9B%AE) 基础框架后，执行如下操作
 1. 安装此主题

@@ -1,6 +1,6 @@
 # vuepress-theme-inherit
 
-> Vuepress 继承于`@vuepress/theme-default`的博客主题，支持归档和标签功能。
+> 继承于`@vuepress/theme-default`的`vuepress`博客主题，支持归档和标签功能，可自动将博客按时间排序。
 
 ## NPM
 <https://www.npmjs.com/package/vuepress-theme-inherit>

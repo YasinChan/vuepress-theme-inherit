@@ -6,7 +6,8 @@
 <https://www.npmjs.com/package/vuepress-theme-inherit>
 
 ## DEMO
-<https://yasinchan.com>
+<https://yasinchan.com>  
+[Demo 源码](https://github.com/YasinChan/vuepress-blog)
 
 ## 安装
 > 注：以下操作均可在官方文档中找到具体步骤与原委，请事先熟悉[文档](https://vuepress.vuejs.org/zh/)  

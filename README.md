@@ -29,8 +29,9 @@ yarn add vuepress-theme-inherit
     │   │   └── README.md
     |   |
     ```
-3. 在`config.js`中加入以下配置来生成导航栏
+3. 在`config.js`中加入以下配置来导入该主题与生成导航栏
     ```
+    theme: require('vuepress-theme-inherit')
     themeConfig: {
       nav: [
         ...

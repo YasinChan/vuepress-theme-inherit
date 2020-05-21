@@ -1,9 +1,9 @@
 <template>
 <div class="blog-archives theme-default-content">
-  <div v-for="(value, key) in archives">
+  <div v-for="key in archivesReverse">
     <h4>{{ key }}</h4>
     <ul>
-      <li v-for="v in value">
+      <li v-for="v in archives[key]">
         <span>{{ v.frontmatter && v.frontmatter.created }}</span>
         <router-link :to="v.path">
           <span>{{ v.title }}</span>
@@ -42,6 +42,11 @@ export default {
       archivesList[year].push(item)
       this.$set(this.archives, [year], archivesList[year])
     })
+  },
+  computed: {
+    archivesReverse() {
+      return Object.keys(this.archives).sort().reverse()
+    }
   }
 }
 </script>

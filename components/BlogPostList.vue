@@ -58,8 +58,9 @@ export default {
   font-weight bold
 
 .blog__post-list-description
-  padding-top 10px
+  padding 20px 10px 0
   font-size 14px
+  color #ccc
 
 .blog__post-list-info
   margin-top 10px

@@ -60,3 +60,7 @@
     4. Blog homepage will create the blog list, base on the markdown files you created under the `/post` directory automatically.
     5. These above functions will be automatically configured without additional operations.
     6. The `README.md` under the three folders of `/archives` `/tags` `/post` can be accessed through [Front Matter](https://vuepress.vuejs.org/guide/frontmatter.html) to set the relevant page information include title, keywords and descriptions
+
+## TODO
+- [ ] Pagination
+- [ ] Better SEO

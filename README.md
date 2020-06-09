@@ -7,9 +7,9 @@
 
 ## DEMO
 <https://yasinchan.com>  
-[Demo source code](https://github.com/YasinChan/vuepress-blog)
+[Source code](https://github.com/YasinChan/vuepress-blog)
 
-## 安装
+## Install
 > Note: The following operations can be found in the official document. Please familiarize yourself with the [documentation](https://vuepress.vuejs.org/) first.  
 
 After install and configure the basic [vuepress](https://vuepress.vuejs.org/guide/getting-started.html#global-installation) framework, do the following operations:

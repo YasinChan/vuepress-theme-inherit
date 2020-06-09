@@ -1,23 +1,23 @@
 # vuepress-theme-inherit
 
-> 继承于`@vuepress/theme-default`的`vuepress`博客主题，支持归档和标签功能，可自动将博客按时间进行排序。
+> The `vuepress` blog theme inherited from `@vuepress/theme-default`, supports archiving and tagging functions, and can automatically sort blogs by time.
 
 ## NPM
 <https://www.npmjs.com/package/vuepress-theme-inherit>
 
 ## DEMO
 <https://yasinchan.com>  
-[Demo 源码](https://github.com/YasinChan/vuepress-blog)
+[Demo source code](https://github.com/YasinChan/vuepress-blog)
 
 ## 安装
-> 注：以下操作均可在官方文档中找到具体步骤与原委，请事先熟悉[文档](https://vuepress.vuejs.org/zh/)  
+> Note: The following operations can be found in the official document. Please familiarize yourself with the [documentation](https://vuepress.vuejs.org/zh/) first.  
 
-在安装和配置 [vuepress](https://vuepress.vuejs.org/zh/guide/getting-started.html#%E7%8E%B0%E6%9C%89%E9%A1%B9%E7%9B%AE) 基础框架后，执行如下操作
-1. 安装此主题
+After install and configure the basic [vuepress](https://vuepress.vuejs.org/zh/guide/getting-started.html#%E7%8E%B0%E6%9C%89%E9%A1%B9%E7%9B%AE) framework, do the following operations:
+1. Install
 ```
 yarn add vuepress-theme-inherit
 ```
-2. 在 `/doc`目录下创建`/post` `/tags` `/archives`目录来载入博客首页列表、标签和归档功能
+2. Create a `/post` `/tags` `/archives` directory under the `/doc` directory to load the blog homepage list, tags and archive functions.
     ```
     .
     ├── docs
@@ -29,28 +29,28 @@ yarn add vuepress-theme-inherit
     │   │   └── README.md
     |   |
     ```
-3. 在`config.js`中加入以下配置来导入该主题与生成导航栏
+3. Add the following configration in the `config.js` to import the theme and generate the navigation bar.
     ```
     theme: 'vuepress-theme-inherit',
     themeConfig: {
       nav: [
         ...
-        {text: '博客', link: '/post/'},
-        {text: '标签', link: '/tags/'},
-        {text: '归档', link: '/archives/'},
+        {text: 'blog', link: '/post/'},
+        {text: 'tags', link: '/tags/'},
+        {text: 'archives', link: '/archives/'},
         ...
       ]
     },
     ```
-4. 在博客 markdown 文档的 [Front Matter](https://vuepress.vuejs.org/zh/guide/frontmatter.html) 中加入几个关键字，来让脚本进行排序
+4. Add the following keywords in the blog markdown file [Front Matter](https://vuepress.vuejs.org/zh/guide/frontmatter.html)  to let the script sort 
     ```
     ---
     created: 2020-1-1
     updated: 2020-2-1
     tags: 
-      - 配置
-      - 主题
-      - 索引
+      - Configration
+      - Technology
+      - Life
     ---
     ```
     其中

@@ -40,6 +40,7 @@
     <slot name="page-bottom" />
     </template>
   </Page>
+  <div class="theme-footer" v-html="footerHtml"></div>
 </div>
 </template>
 
@@ -62,7 +63,8 @@ export default {
 
   data () {
     return {
-      isSidebarOpen: false
+      isSidebarOpen: false,
+      footerHtml: '',
     }
   },
 
@@ -116,7 +118,11 @@ export default {
   },
 
   mounted () {
-    console.log('----------', 'this', this, '----------cyy log')
+    const {themeConfig} = this.$site;
+    console.log('this.$site', this.$site);
+    if (themeConfig && themeConfig.footerRightHtml) {
+      this.footerHtml = themeConfig.footerRightHtml
+    }
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
